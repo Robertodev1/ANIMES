@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'abadon2' ;
+    src: url(fonts/abandon2/AbandoN.ttf);
+}
+@font-face {
+    font-family: 'pirate';
+    src: url(fonts/pirata_one/PirataOne-Regular.ttf);
+}
+:root{
+--color1-: #0477bfd5;
+--color2-:#F2B705;
+--color3-:  #F29F05;
+--color4-: #af00009c ;
+--color5-:#400300;
+--color6-: rgb(110, 8, 8);
+--color7-: #004d7d;
+}
+body{
+margin: 0px;
+background-color: var(--color7-);
+}
+body p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-weight: lighter;
+}
+header{
+    text-align: center;
+background-image: linear-gradient(to right, #0477BF, var(--color1-));
+}
+header h1{
+font-size: 50px;
+font-weight: lighter;
+font-family: 'abadon2';
+margin-top: 0px;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+header nav{
+    background-color: rgba(0, 0, 0, 0.205);
+    margin-bottom: 0px;
+
+}
+header a{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+text-decoration: none;
+    font-size: larger;
+    margin-right: 20px;
+}
+header a:hover {
+    padding: 3px;
+    background-color: var(--color6-);
+    margin-right: 40px;
+    font-size: 30px;
+}
+main{
+padding: 10px;
+background-image: linear-gradient(to bottom, var(--color1-));
+max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+main p{
+margin-top: 0px;
+padding: 10px;
+}
+main img{
+display: block;
+min-width: 300px;
+max-width: 800px;
+width: 100%;
+}
+main article.chapeus-de-palha {
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 10px;
+    min-width: 100px;
+    max-width: 800px;
+    border: 5px solid white;
+    background-image: linear-gradient(to right, #0477BF, #012e49);
+}
+main article.uta-geral {
+    border-radius: 40px 0px 40px 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    min-width: 100px;
+    max-width: 300px;
+    padding-bottom: 130px;
+    border: 5px solid rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(226, 68, 101), white);
+    margin-left: 50px;
+}
+main img.uta{
+min-width: 100px;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 0px;
+}
+main h2.uta{
+text-align: center;
+font-size: 50px;
+color: rgb(226, 68, 101);
+text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.285);
+margin-bottom: 0px;
+margin-top: 0px
+}
+
+main p.descrição-uta {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+main img.uta2 {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+main h2.shanks{
+text-align: center;
+font-size: 50px;
+color: rgb(143, 7, 7);
+text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.285);
+margin-bottom: 0px;
+margin-top: 0px
+}
+main img.shanks {
+   min-width: 100px;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 0px;
+}
+main article.shanks {
+    border-radius: 0px 40px 0px 40px ;
+    margin-top: -806px;
+    min-width: 100px;
+    max-width: 300px;
+    margin-left: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(79, 4, 4), rgb(94, 27, 27));
+    margin-left: 50%;
+}
+main img.shanks2 {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+.descrição{
+margin-top: 10px;
+min-width: 700px;
+max-width: 800px;
+margin: auto;
+padding: 0px;
+}
+footer{
+background-image: linear-gradient(to right, rgb(226, 68, 101), white);
+text-align: center;
+}
+footer p{
+margin: auto;
+}
+footer a{
+text-decoration: none;
+color: black;
+}
+
